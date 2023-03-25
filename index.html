@@ -12,20 +12,20 @@
         <div id="body-container">
             <!--Nav Bar-->
             <section id="nav-bar">
-                <nav>
+                <nav class="nav-menu-container">
                     <div class="logo">
-                    <h4>Sarith</h4>
+                        <h4>Sarith</h4>
                     </div>
                     <ul class="nav-links">
-                    <li><a onclick="topFunction()" href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                        <li class="active"><a onclick="topFunction()" href="#home">Home</a></li>
+                        <li class=""><a href="#about">About</a></li>
+                        <li class=""><a href="#projects">Projects</a></li>
+                        <li class=""><a href="#contact">Contact</a></li>
                     </ul>
                     <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
                     </div>
                 </nav>
             </section>
@@ -291,7 +291,7 @@
                                         <input id="subject" class="user-subject" type="text" placeholder="Enter the subject" required>
                                         <textarea id="message" class="user-message" placeholder="Enter your message" required></textarea>
                                         <div class="user-submit text-center mt-3">
-                                            <input id="send" class="px-2" type="submit" value="Send" onclick="sendmail()">
+                                            <input data-aos="fade-up"  id="send" class="px-2" type="submit" value="Send" onclick="sendmail()">
                                         </div>
                                     </form>
                                 </div>
