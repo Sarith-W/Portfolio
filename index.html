@@ -55,7 +55,7 @@
                 <section id="about">
                     <div class="container my-5">
                         <div class="row">
-                            <div class="col-md">
+                            <div id="nets" class="col-md">
                                 <img data-aos="fade-right" class="mx-auto" src="images/Sarith-1.png" alt="Sarith Image">
                             </div>
                             <div  class="col-md">
@@ -349,6 +349,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.dots.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.net.min.js"></script>
     <script>
         AOS.init();
     </script>
@@ -366,6 +367,20 @@
           backgroundColor: 0x37,
           showLines: false
         })
-        </script>
+    </script>
+    <script>
+        VANTA.NET({
+        el: "#nets",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0xac9d00,
+        backgroundColor: 0x33
+        })
+    </script>
 </html>
 
