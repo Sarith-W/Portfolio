@@ -13,6 +13,10 @@ html, body{
   height: 100vh;
 }
 
+.hey-text{
+  font-family: Rockwell;
+}
+
 .highlight{
   color: rgb(246, 195, 68);
   font-weight: bold;
